@@ -11,7 +11,7 @@ app = FastAPI()
 # route or path operation (3 lines below)
 @app.get("/")                           # called a decorator
 def root():                             # basic python function  # async is optional if needed 
-    return {"message": "Hello World"}
+    return {"message": "Hello world"}
 
 
 
@@ -22,6 +22,7 @@ def root():                             # basic python function  # async is opti
 main.py = entry point in the application
 app = fastapi instance here
 
+#type this straight in console
 *we are using 'uvicorn' library for server: 
      uvicorn main:app           i.e,  uvicorn file:fastapi instance     
 """
