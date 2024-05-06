@@ -4,7 +4,8 @@ from fastapi import FastAPI
 #instance of fastapi
 app = FastAPI()
 
-#path operations
-@app.get("/")
-async def root():
+#path operations/ROUTE
+@app.get("/")                  # @decorator.http_method("/url")
+async def root():              #function
     return {"message": "Hello World"}
+
