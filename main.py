@@ -7,5 +7,5 @@ app = FastAPI()
 #path operations/ROUTE
 @app.get("/")                  # @decorator.http_method("/url")
 async def root():              #function
-    return {"message": "Hello World"}
+    return {"message": "welcome to api"}
 
