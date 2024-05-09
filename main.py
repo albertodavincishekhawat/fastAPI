@@ -26,7 +26,7 @@ def root():              #function
 
 
 @app.get("/posts")              
-def get_post(s):
+def get_post():
     return {"data": "This is your post."}
 
 
